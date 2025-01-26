@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;;
+}
+
+body{
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+    display: grid; /* Activa Grid */
+    place-items: center; /* Centra horizontal y verticalmente */
+    height: 100vh; /* Asegura que el body ocupe toda la altura del viewport */
+    margin: 0; /* Elimina márgenes predeterminados */
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
